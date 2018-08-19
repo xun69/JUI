@@ -1,0 +1,68 @@
+/* CSS Document */
+/*选项卡*/
+.xfq_sstabs{}
+.xfq_sstabs ul,.xfq_sstabs ul li{ padding:0px; margin:0px;}
+.xfq_sstabs ul{ border-bottom:1px solid #CCC; overflow:hidden;}
+.xfq_sstabs ul li{ float:left;padding:5px; background:#fff; list-style:none; cursor:pointer;
+    -moz-border-radius:5px 5px 0px 0px;      /* Gecko browsers */
+    -webkit-border-radius:5px 5px 0px 0px;   /* Webkit browsers */
+    border-radius:5px 5px 0px 0px;            /* W3C syntax */
+}
+.tab_dft{background:#eee;}
+.xfq_sstabs ul{ height:*; overflow:hidden;}
+.xfq_sstabs >div{padding:5px;border: 1px solid #CAE3FF;
+    -moz-border-radius:0px 5px 5px 5px;      /* Gecko browsers */
+    -webkit-border-radius:0px 5px 5px 5px;   /* Webkit browsers */
+    border-radius:0px 5px 5px 5px;            /* W3C syntax */}
+/*伸缩面板*/
+.xfq_ssmb{ border:1px solid #CCC;
+    -moz-border-radius:5px;      /* Gecko browsers */
+    -webkit-border-radius:5px;   /* Webkit browsers */
+    border-radius:5px;            /* W3C syntax */}
+.xfq_ssmb h3{ background:#efefef; border-bottom:1px solid #CCC; margin:0px; padding:5px; cursor:pointer;}
+.xfq_ssmb >div{padding:5px;}
+/*组合框*/
+.xfq_combo{background:#efefef;
+    padding:2px;
+    -moz-border-radius:5px;      /* Gecko browsers */
+    -webkit-border-radius:5px;   /* Webkit browsers */
+    border-radius:5px;            /* W3C syntax */
+    }
+.xfq_select option{}
+/* 单选按钮集*/
+.xfq_radioset{}
+.xfq_radioset input[type=radio]{idisplay:none}
+.xfq_radioset input[type=radio]:checked + label{
+	background:#efefef;
+    padding:2px;
+    -moz-border-radius:5px;      /* Gecko browsers */
+    -webkit-border-radius:5px;   /* Webkit browsers */
+    border-radius:5px;  
+	}
+/*菜单*/
+.xfq_menu{
+	background:#CAE3FF;
+    padding:2px;
+    -moz-border-radius:5px;      /* Gecko browsers */
+    -webkit-border-radius:5px;   /* Webkit browsers */
+    border-radius:5px;
+	height:*;
+	overflow:hidden;
+	}
+.xfq_menu ul,.xfq_menu ul li{padding:0px; margin:0px;list-style:none;}
+.xfq_menu >ul >li{ float:left;}
+.xfq_menu >ul >li >a{ width:80px;height:30px; line-height:30px; display:block; text-align:center; text-decoration:none}
+.xfq_menu >ul >li a:hover{ background:#FFF;
+    -moz-border-radius:5px;      /* Gecko browsers */
+    -webkit-border-radius:5px;   /* Webkit browsers */
+    border-radius:5px;
+}
+.xfq_menu >ul >li ul{ position:absolute; display:none;
+    background:#CAE3FF;
+    padding:2px;
+    -moz-border-radius:5px;      /* Gecko browsers */
+    -webkit-border-radius:5px;   /* Webkit browsers */
+    border-radius:5px;
+}
+.xfq_menu >ul >li >ul li a{width:80px;height:30px; line-height:30px; display:block; text-align:center; text-decoration:none}
+.xfq_menu >ul >li:hover >ul{ display:block;}

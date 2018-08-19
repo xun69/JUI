@@ -1,0 +1,13 @@
+/* CSS Document */
+body{font-size:12px; margin:0px}
+.c{width:1000px; margin:0px auto;}
+.tm10{ margin-top:10px}
+textarea{min-width:200px;max-width:950px;}
+
+#sstab1{}
+#sstab1 ul{border-bottom:none;}
+#sstab1 ul li{border: 1px solid #CAE3FF;border-bottom:none; margin-right:2px}
+
+
+#ssmb1{border: 1px solid #CAE3FF;}
+#ssmb1 h3{ background:#F2F9FF;border-bottom: 1px solid #CAE3FF; color:#3D63B0;}
